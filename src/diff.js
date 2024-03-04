@@ -6,5 +6,5 @@ export default ()=> {
   .description('Compares two configuration files and shows a difference.')
   .version('1.0.0');
 
-  program.parse(process.argv);
+  program.option('-f, --format [type]', 'output format');
 }
